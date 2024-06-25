@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #0d3d97 ,#a299f0);
+    height: 100vh;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 2px 5px 2px #000;
+}
+
+.box {
+    position: absolute;
+    background-color: #000000c7;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1{
+    padding: 5px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #686868;
+    color: #71f5f5;
+}
+
+.equal {
+    height: 102px; 
+    background-color: orangered;
+    color: aliceblue;
+}
+
+.equal:hover {
+    background-color: #ff4400b9;
+}
+
+.c_button {
+    background-color: green; 
+    color: aliceblue;
+}
+
+.c_button:hover {
+    background-color: #008000ad;
+}
+
+button:hover {
+    background-color: #474747a9;
+}
+
+.tela{
+    background-color: #fff;
+    height: 35px;
+    border-radius: 10px;
+    color: #000;
+    font-size: 25px;
+    text-align: end;
+    text-shadow: none;
+    margin: 3px;
+}
+
+.copyright {
+    color: rgb(255, 235, 121);
+    text-shadow: 2px 0 2px #000;
+    font-style: oblique;
+    font-size: small;
+}
